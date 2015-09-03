@@ -23,7 +23,6 @@ public class LightTrigger : MonoBehaviour {
 			gameObject.GetComponent<Light> ().enabled = true; 
 		
 }
-	void OnTriggerEnter() {
-		gameObject.GetComponent<MeshRenderer>().material.color = Color.red;
-	}
+
+
 }
